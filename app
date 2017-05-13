@@ -1,0 +1,5 @@
+The morning is a time filled with constant rushing. Rush to clean up. Rush to make coffee. Rush to get to work/school. Too many times have people skipped breakfast in their morning because of this rushing. Making breakfast just takes too much time and is too much effort.
+
+Not anymore. Breakfast will solve this problem by automating the breakfast creation process. Breakfast will be able to make eggs (sunny side up style), bacon, pancakes, and toast by the end of the few weeks we have on this project as well as being Internet connected. We will need a Photon microcontroller, many motors, Vex metal, a grill, and the ingredients for the food. Users can set an alarm for breakfast to be made through a web/app interface. They will also be able to activate the bot through an Alexa skill (e.g. Alexa, tell bot to make breakfast). 
+
+Our target consumer is the working class, students, and lazy people mainly in more metropolitan areas.
