@@ -2,6 +2,7 @@ var express = require('express')
 var app = express()
 
 var request = {}
+var done = false
 
 app.get('/', function(req, res){
 	res.send("kys")
@@ -10,6 +11,16 @@ app.get('/', function(req, res){
 app.post('/make', function(req, res){
 	request = req.body
 	res.send("k")
+})
+
+app.post('/done', function(req, res){
+	done = true
+	res.send(done)
+})
+
+app.get('/done', function(req, res){
+	done = false
+	res.send(done)
 })
 
 // lol nice hacks dood

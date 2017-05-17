@@ -45,7 +45,6 @@ Hello.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, se
 Hello.prototype.intentHandlers = {
     // register custom intent handlers
     "Make": function (intent, session, response) {
-        //response.intent.latitude, response.intent.longitude
         var options = {
             url: 'http://fa61082d.ngrok.io/sandwich'
         };
