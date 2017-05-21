@@ -26,6 +26,14 @@ app.get('/done', function(req, res){
 // lol nice hacks dood
 app.get('/req', function(req, res){
 	res.json(request)
+
+	// typical request
+	// {
+	// 		bacon: true,
+	// 		eggs: false,
+	// 		toast: true,
+	// 		pancakes: false
+	// }
 })
 
 app.listen(3000)
